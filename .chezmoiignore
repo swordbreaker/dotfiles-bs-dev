@@ -1,0 +1,3 @@
+# DevPod runs install.sh from its own clone (~/.dotfiles); don't apply it into $HOME.
+install.sh
+README.md
