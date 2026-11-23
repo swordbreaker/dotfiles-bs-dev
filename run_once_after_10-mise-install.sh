@@ -9,7 +9,7 @@ mise install
 #   KEEP_ZSHRC             - 'yes' means the installer will not replace an existing .zshrc (default: no)
 #
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
-  CHSH=no RUNZSH=no KEEP_ZSHRC=yes \
+  ZSH= CHSH=no RUNZSH=no KEEP_ZSHRC=yes \
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
