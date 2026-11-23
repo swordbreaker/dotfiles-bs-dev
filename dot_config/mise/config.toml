@@ -1,0 +1,8 @@
+[tools]
+helix = "latest"
+pass-cli = "latest"
+starship = "latest"
+television = "latest"
+uv = "latest"
+zoxide = "latest"
+"github:can1357/oh-my-pi" = "latest"

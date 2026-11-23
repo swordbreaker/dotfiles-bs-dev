@@ -1,0 +1,58 @@
+modelRoles:
+  default: zai/glm-5.3-flash:high
+symbolPreset: nerd
+composer:
+  shape: band
+  tokenRate: true
+theme:
+  dark: titanium
+  light: dark-catppuccin
+setupVersion: 3
+disabledExtensions: []
+browser:
+  headless: false
+statusLine:
+  separator: slash
+  sessionAccent: true
+  transparent: false
+  compactThinkingLevel: false
+  showHookStatus: true
+terminal:
+  showProgress: false
+display:
+  subagentLivePreview: true
+defaultThinkingLevel: low
+hideThinkingBlock: false
+modelRoleStorage: global
+personality: pragmatic
+steeringMode: one-at-a-time
+interruptMode: immediate
+tools:
+  approvalMode: yolo
+memory:
+  backend: local
+autolearn:
+  enabled: true
+  autoContinue: false
+edit:
+  mode: hashline
+read:
+  renderMarkdown: true
+shellMinimizer:
+  sourceOutlineLevel: default
+eval:
+  autoBackground:
+    enabled: true
+python:
+  kernelMode: session
+astGrep:
+  enabled: true
+computer:
+  enabled: true
+  display: all
+vault:
+  enabled: true
+github:
+  enabled: true
+update:
+  auto: false
