@@ -1,12 +1,4 @@
-[plugins]
-# pass-cli (Proton Pass CLI) is a DCC-BS mise plugin, not in the mise registry.
-pass-cli = "https://github.com/DCC-BS/mise-proton-pass-cli.git"
-
 [tools]
 helix = "latest"
-pass-cli = "latest"
-starship = "latest"
 television = "latest"
-uv = "latest"
-zoxide = "latest"
 "github:can1357/oh-my-pi" = "latest"
