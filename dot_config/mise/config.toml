@@ -2,3 +2,5 @@
 helix = "latest"
 television = "latest"
 "github:can1357/oh-my-pi" = "latest"
+lazygit = "latest"
+chezmoi = "latest"
