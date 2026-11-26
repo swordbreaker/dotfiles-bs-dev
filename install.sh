@@ -9,4 +9,4 @@ if ! command -v mise >/dev/null 2>&1; then
 fi
 export PATH="$HOME/.local/bin:$HOME/.local/share/mise/shims:$PATH"
 
-mise x chezmoi@latest -- chezmoi init --apply git@github.com:swordbreaker/dotfiles-bs-dev.git
+mise x chezmoi@latest -- chezmoi init --apply https://github.com/swordbreaker/dotfiles-bs-dev.git
